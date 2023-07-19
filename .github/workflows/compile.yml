@@ -10,3 +10,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: tharris_cv.tex
+      - name: Convert PDF to PNG (Poppler)
+        run: |
+          sudo apt-get install -y poppler-utils
+          pdftoppm tharris_cv.pdf tharris_cv -png -singlefile
