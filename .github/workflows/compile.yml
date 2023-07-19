@@ -6,14 +6,30 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v3
+
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
           root_file: tharris_cv.tex
+
       - name: Convert PDF to PNG (Poppler)
         run: |
           sudo apt-get install -y poppler-utils
           pdftoppm tharris_cv.pdf tharris_cv -png -singlefile
+          ls -l tharris_cv*
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: resume-artifacts
+          path: |
+            tharris_cv.pdf
+            tharris_cv.png
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: resume-artifacts
+          path: distfiles
+
       - name: Publish to site with SCP
         uses: appleboy/scp-action@v0.1.4
         with:
@@ -21,7 +37,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
-          source: |
-            tharris_cv.pdf
-            tharris_cv.png
+          source: distfiles/*
           target: public_html/resume
