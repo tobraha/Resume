@@ -351,7 +351,7 @@
 %%%%%%%%%%%%%%%%
 % Page Setting %
 %%%%%%%%%%%%%%%%
-\RequirePackage[left=7.3cm,top=0.1cm,right=0.5cm,bottom=0.6cm,nohead]{geometry}
+\RequirePackage[left=7.3cm,top=0.1cm,right=0.6cm,bottom=0.6cm,nohead]{geometry}
 \RequirePackage{hyperref}
 \hypersetup{
   colorlinks=true,
