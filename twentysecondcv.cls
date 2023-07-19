@@ -229,7 +229,7 @@
       (*)[The skill scale is from 0 (Fundamental Awareness) to 5 (Expert).]
 
       \bigskip
-      \today\ / \href{https://github.com/tobraha/Resume}{source code}
+      Document compiled on \today\ / \href{https://github.com/tobraha/Resume}{source code}
       
     \end{flushleft}
   \end{textblock}
