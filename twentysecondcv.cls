@@ -358,5 +358,6 @@
   linkcolor=cyan,
   filecolor=magenta,
   urlcolor=cyan,
-  pdftitle={Thomas Harris Resume},
+  pdftitle={Thomas Harris Curriculum Vitae},
+  pdfauthor={Thomas B. Harris},
 }
