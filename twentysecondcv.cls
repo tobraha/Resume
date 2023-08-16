@@ -226,10 +226,13 @@
       \noindent
       \scriptsize
       \noindent
-      (*)[The skill scale is from 0 (Fundamental Awareness) to 5 (Expert).]
+      \textit{*This skill scale is from 0 (Fundamental Awareness) to 5 (Expert)}
 
       \bigskip
-      Document compiled on \today\ / \href{https://github.com/tobraha/Resume}{source code}
+
+      Document compiled on \today\
+
+      -> \href{https://github.com/tobraha/Resume}{Source Code (Github)}
       
     \end{flushleft}
   \end{textblock}
