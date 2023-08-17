@@ -229,8 +229,8 @@
       \textit{*This skill scale is from 0 (Fundamental Awareness) to 5 (Expert)}
 
       \bigskip
-
-      Document compiled on \today\
+      \noindent
+      Document compiled with \LaTeX\ on \today\
 
       -> \href{https://github.com/tobraha/Resume}{Source Code (Github)}
       
