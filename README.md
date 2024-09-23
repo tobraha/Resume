@@ -11,3 +11,10 @@ This preview is an image rendering of the PDF file that this LaTeX code creates.
 
 ![A PNG image version of my Resume. The original version is a PDF and can be found at the following URL: https://tobraha.tilde.team/resume/tharris_cv.pdf](https://tobraha.tilde.team/resume/tharris_cv.png)
 
+## Resume Source
+
+This Resume format was forked from Carmine Spagnuolo's "Twenty Seconds Resume"
+(original repository [here](https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex))
+and thus inherits its MIT License.
+
+I learned a great deal about LaTeX in creating my Resume from Carmine's template.
