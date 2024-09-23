@@ -9,7 +9,7 @@ https://tobraha.tilde.team/resume
 
 This preview is an image rendering of the PDF file that this LaTeX code creates. The PDF can be found at: https://tobraha.tilde.team/resume/tharris_cv.pdf
 
-![A PNG image version of my Resume. The original version is a PDF and can be found at the following URL: https://tobraha.tilde.team/resume/tharris_cv.pdf](https://tobraha.tilde.team/resume/tharris_cv.png)
+<img src='https://tobraha.tilde.team/resume/tharris_cv.png' alt='A PNG image version of my Resume. The original version is a PDF and can be found at the following URL: https://tobraha.tilde.team/resume/tharris_cv.pdf' width="800">
 
 ## Resume Source
 
