@@ -226,7 +226,8 @@
       \noindent
       \scriptsize
       \noindent
-      \textit{*This skill scale is from 0 (Fundamental Awareness) to 5 (Expert)}
+      \textit{*Scale is from 0 (Fundamental Awareness) to 5 (Expert)} \\
+      \textit{**Jocular - I know close to nothing about Java}
 
       \bigskip
       \noindent
